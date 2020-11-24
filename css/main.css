@@ -1204,9 +1204,9 @@ blockquote {
 7.2. Resume subpage
 ======================================= */
 .timeline-second-style .company-header {
-    width: 30%;
-    text-align: right;
-    padding-right: 25px;
+  padding-right: 25px;
+  width: 30%;
+  text-align: right;
 }
 
 .timeline-second-style .timeline-item {
@@ -2699,6 +2699,12 @@ blockquote p {
     top: 15px;
     border: 1px solid #eee;
     border-right-width: 0;
+  }
+
+  .timeline-second-style .company-header {
+    width: 100%;
+    text-align: left;
+
   }
 }
 
